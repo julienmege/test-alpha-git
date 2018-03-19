@@ -22,9 +22,13 @@
           <entryRedirectionURL xmi:type="expression:Expression" xmi:id="_ZHkuIiuIEeioD9t5Oucllw" name="" content="" returnTypeFixed="true"/>
           <confirmationMessage xmi:type="expression:Expression" xmi:id="_ZHkuIyuIEeioD9t5Oucllw" name="" content="" returnTypeFixed="true"/>
           <formMapping xmi:type="process:FormMapping" xmi:id="_ZHkuJCuIEeioD9t5Oucllw">
-            <targetForm xmi:type="expression:Expression" xmi:id="_fkDakCuOEeioD9t5Oucllw" name="newForm" content="254d78fb-5285-4516-a2d5-28dc3e7e97ec" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+            <targetForm xmi:type="expression:Expression" xmi:id="_1-stkCuMEeikmtuMqH_s2Q" name="newForm" content="75776ebd-959f-45f6-a01d-459c790a3408" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
           </formMapping>
-          <contract xmi:type="process:Contract" xmi:id="_ZHkuJiuIEeioD9t5Oucllw"/>
+          <contract xmi:type="process:Contract" xmi:id="_ZHkuJiuIEeioD9t5Oucllw">
+            <inputs xmi:type="process:ContractInput" xmi:id="_uILdQCuMEeikmtuMqH_s2Q" name="input1">
+              <mapping xmi:type="process:ContractInputMapping" xmi:id="_uILdQSuMEeikmtuMqH_s2Q"/>
+            </inputs>
+          </contract>
           <expectedDuration xmi:type="expression:Expression" xmi:id="_ZHkuJyuIEeioD9t5Oucllw" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
         </elements>
         <elements xmi:type="process:EndEvent" xmi:id="_dIabYCuKEeioD9t5Oucllw" name="Fin1" incoming="_-1VXECuMEeioD9t5Oucllw">
