@@ -1,0 +1,62 @@
+{
+  "designerVersion" : "1.4.34",
+  "id" : "ba7a9853-c7c0-4182-a3da-667cf2ec8ce7",
+  "name" : "fragTestUIB",
+  "lastUpdate" : 1521451166618,
+  "rows" : [ [ {
+    "type" : "component",
+    "dimension" : {
+      "xs" : 12,
+      "sm" : 12,
+      "md" : 12,
+      "lg" : 12
+    },
+    "propertyValues" : {
+      "cssClasses" : {
+        "type" : "constant",
+        "value" : ""
+      },
+      "hidden" : {
+        "type" : "constant",
+        "value" : false
+      },
+      "text" : {
+        "type" : "interpolation",
+        "value" : "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,<br/>consectetur,<br/>adipisci velit..."
+      },
+      "alignment" : {
+        "type" : "constant",
+        "value" : "left"
+      }
+    },
+    "reference" : "bcfed7ec-bc03-47da-ba2f-28debec8590a",
+    "id" : "pbText"
+  } ], [ {
+    "type" : "component",
+    "dimension" : {
+      "xs" : 12,
+      "sm" : 12,
+      "md" : 12,
+      "lg" : 12
+    },
+    "propertyValues" : {
+      "cssClasses" : {
+        "type" : "constant",
+        "value" : ""
+      },
+      "hidden" : {
+        "type" : "constant",
+        "value" : false
+      },
+      "targetUrl" : {
+        "type" : "variable"
+      }
+    },
+    "reference" : "b95eed08-4095-44ce-9aca-110e7a9ec608",
+    "id" : "customLivingApplicationMenu"
+  } ] ],
+  "assets" : [ ],
+  "inactiveAssets" : [ ],
+  "data" : { },
+  "type" : "fragment"
+}
