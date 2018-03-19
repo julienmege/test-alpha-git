@@ -22,7 +22,7 @@
           <entryRedirectionURL xmi:type="expression:Expression" xmi:id="_ZHkuIiuIEeioD9t5Oucllw" name="" content="" returnTypeFixed="true"/>
           <confirmationMessage xmi:type="expression:Expression" xmi:id="_ZHkuIyuIEeioD9t5Oucllw" name="" content="" returnTypeFixed="true"/>
           <formMapping xmi:type="process:FormMapping" xmi:id="_ZHkuJCuIEeioD9t5Oucllw">
-            <targetForm xmi:type="expression:Expression" xmi:id="_ZHkuJSuIEeioD9t5Oucllw" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+            <targetForm xmi:type="expression:Expression" xmi:id="_fkDakCuOEeioD9t5Oucllw" name="newForm" content="254d78fb-5285-4516-a2d5-28dc3e7e97ec" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
           </formMapping>
           <contract xmi:type="process:Contract" xmi:id="_ZHkuJiuIEeioD9t5Oucllw"/>
           <expectedDuration xmi:type="expression:Expression" xmi:id="_ZHkuJyuIEeioD9t5Oucllw" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
