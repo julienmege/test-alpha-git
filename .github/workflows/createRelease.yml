@@ -24,6 +24,6 @@ jobs:
 
       - name: Use asset-name
         shell: bash
-        run: echo steps.evaluate_asset_name.outputs.name
+        run: echo "${{ steps.evaluate_asset_name.outputs.name }}"
         id: use_asset_name
 
