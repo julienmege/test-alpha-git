@@ -19,7 +19,14 @@ jobs:
 
       - name: Evaluate asset-name
         shell: bash
-        run: echo "##[set-output name=name;][[ ! -z ${{ inputs.asset-name }} ]] && echo ${{ inputs.asset-name }} || echo ${{ github.event.repository.name }}-${{ inputs.release-version }}-all.zip"
+        run: |
+          if [ "$ASSET_NAME" == "" ]; then
+            echo ::set-output name=name:: ${{ github.event.repository.name }}-all.zip
+          else
+            echo ::set-output name=name::${{ inputs.asset-name }}
+          fi
+        env:
+          ASSET_NAME: ${{ inputs.asset-name }}
         id: evaluate_asset_name
 
       - name: Use asset-name
