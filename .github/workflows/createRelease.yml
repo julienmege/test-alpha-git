@@ -19,7 +19,7 @@ jobs:
 
       - name: Echo
         shell: bash
-        run: echo my var ${{ inputs.asset-name }}
+        run: echo my var ${{ github.event.inputs.asset-name }}
         
       - name: Evaluate asset-name
         shell: bash
@@ -30,7 +30,7 @@ jobs:
             echo ::set-output name=name:: "$ASSET_NAME"
           fi
         env:
-          ASSET_NAME: ${{ inputs.asset-name }}
+          ASSET_NAME: ${{ github.event.inputs.asset-name }}
         id: evaluate_asset_name
 
       - name: Use asset-name
