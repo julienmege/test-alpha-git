@@ -19,9 +19,8 @@ jobs:
 
       - name: Echo
         shell: bash
-        run: |
-            echo ${{ inputs.asset-name }}
-
+        run: echo my var ${{ inputs.asset-name }}
+        
       - name: Evaluate asset-name
         shell: bash
         run: |
