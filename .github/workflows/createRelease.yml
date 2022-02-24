@@ -17,6 +17,11 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Echo
+        shell: bash
+        run: |
+            echo ${{ inputs.asset-name }}
+
       - name: Evaluate asset-name
         shell: bash
         run: |
